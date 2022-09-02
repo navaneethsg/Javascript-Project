@@ -93,9 +93,12 @@ html{
     
 }
 .skills{
+    margin: 0;
+    padding: 0;
     display: flex;
-    height: 100vh;
-    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: rgb(22, 22, 22);
 }
@@ -235,58 +238,39 @@ margin-left: 0%;
     font-size: 20px;  
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }  
-.container{
+.container1{
+    width: 1200vh;
+    height: auto;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 40px;
-    position: relative;
-    width: 600px;
-    height: 400px;
-    margin: 5.5%;
-    margin-top: 18%;
+    grid-template-columns: repeat(auto-fit, minmax(280px , 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
-.container .box{
+.container1 .box1{
     position: relative;
-    width: 400px;
-    height: 400px;
     background: black;
-    float: left;
-    margin: 5px;
-    box-sizing: content-box;
+    padding: 20px 40px 40px;
+    text-align: center;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 20px;
 }
-
-.container .box1{
-    position: relative;
-    width: 400px;
-    height: 400px;
-    background: black;
-    float: left;
-    margin: 5px;
-    box-sizing: content-box;
-    overflow: hidden;
-    border-radius: 10px;
+h3{
+    color: darkorchid;
 }
-.container .box2{
-    position: relative;
-    width: 400px;
-    height: 400px;
-    background: black;
-    float: left;
-    margin: 5px;
-    box-sizing: content-box;
-    overflow: hidden;
-    border-radius: 10px;
+h2{
+    color:white;
 }
 #imge{
-    height: 5cm;
-    width: 5cm;
-    border-radius: 10px;
-    margin-left: 28%;
-    margin-top: 10%;
-    
+    height: 60px;
+    width: 60px;
+    margin-left: 2%;
 }
+
+
+    
+
 h4{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
